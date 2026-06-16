@@ -1,0 +1,9 @@
+The Street Solution™ Ivory Editorial Website Package
+
+Primary file: index.html
+Style file: styles.css
+Behavior file: script.js
+Deployment file: vercel.json
+Reference image: assets/approved-homepage-reference.png
+
+Status: GitHub/Vercel-ready static site.

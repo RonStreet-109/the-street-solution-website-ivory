@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Street Solution™ | Connection First. Decisions Second.</title>
+  <meta name="description" content="The Street Solution helps individuals and families identify the right questions, the right professional help, and the next clear step before important decisions get rushed." />
+  <meta name="theme-color" content="#fbf7ef" />
+  <meta property="og:title" content="The Street Solution™" />
+  <meta property="og:description" content="Connection First. Decisions Second." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/approved-homepage-reference.png" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="assets/hero-books.png" as="image" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="site-shell">
+    <header class="brand-header" aria-label="The Street Solution brand">
+      <a class="brand-lockup" href="#top" aria-label="The Street Solution home">
+        <img src="assets/ts-logo.png" alt="TS logo" class="brand-logo" />
+        <span class="brand-divider" aria-hidden="true"></span>
+        <span class="brand-text-wrap">
+          <span class="brand-name">The Street Solution™</span>
+          <span class="brand-tagline">Connection First. Decisions Second.</span>
+        </span>
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">What Comes Next Matters.<br />So Does How You Begin.</h1>
+          <div class="ornament" aria-hidden="true"><span></span></div>
+          <p class="lead">You don’t have to figure it out alone. This page is designed to help you identify what you’re facing, what kind of professional help may be needed, and what clear next step matters most right now.</p>
+          <button class="primary-button" type="button" data-scroll-to-form>Request a Silver Linings™ Next-Step Review <span aria-hidden="true">→</span></button>
+        </div>
+
+        <figure class="hero-image-wrap" aria-label="Planning books and eyeglasses">
+          <img src="assets/hero-books.png" alt="Stacked planning, legacy, and confidence books with eyeglasses" class="hero-image" />
+        </figure>
+      </section>
+
+      <section class="resource-grid" aria-label="Where The Street Solution can help">
+        <article class="resource-card">
+          <h2>Legal &amp; Estate Planning</h2>
+          <p>Wills, trusts, powers of attorney, and legacy planning.</p>
+          <a href="#request" data-card-need="Legal & Estate Planning">Explore This Area <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="resource-card">
+          <h2>Financial &amp; Tax Planning</h2>
+          <p>Retirement, investments, taxes, and income strategies.</p>
+          <a href="#request" data-card-need="Financial & Tax Planning">Explore This Area <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="resource-card">
+          <h2>Senior Living &amp;<br />Care Resources</h2>
+          <p>Options for living well with the right support.</p>
+          <a href="#request" data-card-need="Senior Living & Care Resources">Explore This Area <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="resource-card">
+          <h2>Caregiving &amp;<br />Family Support</h2>
+          <p>Guidance, resources, and support for caregivers.</p>
+          <a href="#request" data-card-need="Caregiving & Family Support">Explore This Area <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="resource-card">
+          <h2>Home &amp; Property<br />Transition</h2>
+          <p>Decisions about the home, selling, rightsizing, and more.</p>
+          <a href="#request" data-card-need="Home & Property Transition">Explore This Area <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="resource-card">
+          <h2>Not Sure Where<br />to Begin</h2>
+          <p>We’ll help you take the first right step with confidence.</p>
+          <a href="#request" data-card-need="Not Sure Where to Begin">Start Here <span aria-hidden="true">→</span></a>
+        </article>
+      </section>
+
+      <section class="request-and-note" id="request" aria-label="Request a next-step review">
+        <div class="request-panel">
+          <div class="section-title-row" aria-hidden="true"><span></span><strong>Tell Us What Matters Most Right Now</strong><span></span></div>
+          <h2 class="visually-hidden">Tell Us What Matters Most Right Now</h2>
+
+          <form id="requestForm" class="request-form" novalidate>
+            <div class="field">
+              <label for="name">Name:</label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="First and Last Name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email:</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone:</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(   ) ___-____" />
+            </div>
+            <div class="field select-field">
+              <label for="need">Most Important Need</label>
+              <select id="need" name="need" required>
+                <option value="">Select one...</option>
+                <option>Legal & Estate Planning</option>
+                <option>Financial & Tax Planning</option>
+                <option>Senior Living & Care Resources</option>
+                <option>Caregiving & Family Support</option>
+                <option>Home & Property Transition</option>
+                <option>Not Sure Where to Begin</option>
+              </select>
+            </div>
+            <div class="field select-field">
+              <label for="urgency">Urgency</label>
+              <select id="urgency" name="urgency">
+                <option value="">Select one...</option>
+                <option>Today / urgent</option>
+                <option>This week</option>
+                <option>This month</option>
+                <option>Planning ahead</option>
+              </select>
+            </div>
+            <div class="field question-field">
+              <label for="question">What is the one question you most need answered?</label>
+              <input id="question" name="question" type="text" placeholder="Type your question here..." />
+            </div>
+            <button class="form-button" type="submit">Send My Request <span aria-hidden="true">→</span></button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <aside class="note-panel" aria-labelledby="note-title">
+          <div class="note-content">
+            <h2 id="note-title">A Note Before You Begin</h2>
+            <div class="small-ornament" aria-hidden="true"><span></span></div>
+            <p>The Street Solution™ does not replace legal, tax, financial, or medical advice. We help individuals and families connect with the right type of professional and the right questions to ask so they can make informed, confident decisions.</p>
+            <p class="note-emphasis">Your best next step begins with understanding.</p>
+          </div>
+          <img src="assets/botanical-line.svg" alt="" class="botanical" aria-hidden="true" />
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <footer class="contact-footer" aria-label="Contact information">
+    <div class="footer-inner">
+      <div class="advisor-card">
+        <img src="assets/ron-street.png" alt="Ron Street" class="advisor-photo" />
+        <div>
+          <p class="advisor-name">Ron Street</p>
+          <p class="advisor-title">Senior Advisor</p>
+          <p class="advisor-lines">Guiding you to understanding.<br />Connecting you to confidence.</p>
+        </div>
+      </div>
+      <a class="contact-item" href="tel:19367884600" aria-label="Call Ron Street at 936.788.4600"><span class="contact-icon" aria-hidden="true">☎</span><span>936.788.4600</span></a>
+      <a class="contact-item" href="mailto:ron@TheStreetSolution.com"><span class="contact-icon" aria-hidden="true">✉</span><span>ron@TheStreetSolution.com</span></a>
+      <a class="contact-item" href="https://TheStreetSolution.com/start"><span class="contact-icon" aria-hidden="true">◎</span><span>TheStreetSolution.com/start</span></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
